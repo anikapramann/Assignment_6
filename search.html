@@ -1,0 +1,195 @@
+<html>
+<head>
+    <meta charset="Plantshot">
+        <meta name="Plant Facts" content="facts about plants">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="anika pramann" content="Plants">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(83, 114, 62);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.crop {
+        width: 5000px;
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .crop img {
+        width: 1290px;
+        height: 800px;
+        margin: -75px 0 0 -100px;
+    }
+
+/* Fake image */
+.fakeimg {
+  background-color: rgb(231, 250, 226);
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  background: rgb(83, 114, 62);
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> <img src="img/plantshot_logo.png" alt="logo" style=" width: 350px;" class="left text-align"></h1>
+</div>
+
+<div class="topnav">
+    <p><a href="index.html">Home</a></p>
+    <p><a href="page_2.html">Contact</a></p>
+  <a href="#">Search</a>
+
+
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>SEARCH</h2>
+      <h5>Interesting facts about aloe </h5>
+      <div class="crop">
+      <img src="img/shutterstock_1049109326.jpg" alt="logo" style=" width: 1290px;" class="left text-align">
+      </div>
+      <p> Aloe is a cool plant</p>
+      <li>Aloe can survive for over 100 years</li> 
+       <li> Aloe is not a cactus, but its own species of plant</li>
+       <li> There are over 500 varieties of aloe plants</li>
+       <li> Aloe is 95% water, 5% beneficial solids</li>
+       <li>The aloe plant has self-healing properties</li>
+        <li>Aloe juice is a key ingredient in healthy moothies </li>
+      
+      
+    </div>
+    <div class="card">
+      <h2>SEARCH</h2>
+      <h5>Interesting facts about the Ladyslipper</h5>
+      <div class="crop">
+        <img src="img/ladys-slipper.jpg" alt="logo" style=" width: 1290px;" class="left text-align">
+    </div>
+    <p>The pink lady slipper is a perennial monocot found throughout the eastern United States and most of Canada. It is one of the largest native Orchid species and can grow dense in small areas. Pink lady slippers can grow in wooded or semi-wooded habitats </p>
+   
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Fun Facts</h2> 
+      <li>All of the teas are from Camellia Sinensis</li>
+      <li>Trees were not around for 90% of Earth's history</li>
+      <li>Before trees, there were HUMONGOUS fungi</li>
+      <li>There's a wild fig tree in South Africa with roots that go 400 feet deep</li>
+      <li> "Vegetable" is mostly a culinary term, not a scientific classification</li>
+     
+    </div>
+    <div class="card">
+      <h3>Cool Photos</h3>
+      <img src="img/giant-water-lily-20-most-interesting-plants-1024x678.jpg" alt="logo" style=" width: 200px;" class="left text-align">
+      <img src="img/731fd69da77b5819bcf09ee55e9431e1.jpg" alt="logo" style=" width: 100px;" class="left text-align">
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>anika.pramann</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Download the app for free</h2>
+</div>
+
+</body>
+</html>
